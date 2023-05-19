@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Yekan Bakh";
+    direction: rtl;
+}
+button {
+    all: unset;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("1-2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292524;
+}
+main {
+    width: 50rem;
+    height: 85vh;
+    background-color: #F5F5F4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.commodity__image__wrrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commodity__image__wrrapper img {
+    width: 25rem;
+    height: 17rem;
+    border-radius: 1rem;
+}
+.commodity__name__wrrapper ,
+.commodity__detail__wrrapper
+{
+    width: 100%;
+    align-self: flex-start;
+    padding: 1rem 2rem 2rem 2rem;
+
+}
+.commodity__detail{
+    text-align: justify;
+    line-height: 30px;
+}
+.commodity__qty{
+    padding: 5px 0;
+}
+.buy__product{
+    background-color: #DC2626;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    align-self: flex-end;
+
+}
